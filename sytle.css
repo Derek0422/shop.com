@@ -1,0 +1,212 @@
+body{
+    background:linear-gradient(135deg,#391313,rgb(15, 16, 18));
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    font-size: 2.5rem;
+    width: 20%;
+    padding-left: 5px;
+    /* border-bottom: 2px sl; */
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 20px;
+    /* height: 20vh; */
+   justify-content: space-around;
+}
+.link{
+    display: flex;
+    align-items:  center;
+    gap: 20px;
+    width: 80%;
+    padding-right: 5%;
+    justify-content: space-around;
+}
+.link button{
+    padding: 8px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+.link button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding-left: rem;
+    padding-top: 1rem;
+
+}
+.search input{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    color: black;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.clothe{
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+.stck1{
+    width: 50%;
+}
+h5{
+    text-decoration: line-through;
+    color: red;
+}
+.pp{
+    color: orange;
+}
+.btn1{
+    display: flex;
+    gap: 10px;
+}
+
+.bb1{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color:orange;
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+.bb2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.stck1 img{
+   border-radius: 20px;
+}
+.txt{
+    text-decoration: line-through;
+    color: red;
+}
+.clo{
+    color: white;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 30px;
+    background-color: lightskyblue;
+    height: 3vh;
+}
+main{
+    padding-top: 10px;
+    width: 100%;
+    overflow: auto;
+    overflow-y: 0;
+    overflow-x: 0;
+    height: 200%;
+}
+.ion{
+    font-size: 2rem;
+    color: ;
+    font-weight: 900;
+    /* position: relative; */
+}
+/* .ion:hover{
+    width: 70%;
+    opacity: 0,5;
+} */
+.clothe1{
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+.clothe2{
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+.clothe3{
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+.clo{
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 4px; */
+    gap: 30px;
+    font-weight: 600;
+    background-color: lightskyblue;
+    height: 3vh;
+    padding: ;
+}
+details{
+    border: none;
+    outline: none;
+    /* color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    padding: 13px;
+    margin-left: 5px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    width:100% ;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    padding-right: 20px;
+    font-size: 15px;
+}
+option{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    outline: none;
+    border: none;
+    min-width: 500px;
+    height: 50vh;
+    opacity: 1rem;
+    color: white;
+    border-bottom: 1px solid white;
+}
